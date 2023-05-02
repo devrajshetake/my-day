@@ -1,0 +1,27 @@
+<div class="container-fluid">
+<div class="container">
+    
+    <div class="card" *ngFor="let article of articles">
+        
+      <div class="card__header">
+        <img src={{article.urlToImage}} alt="card__image" class="card__image" width="600">
+      </div>
+      <div class="card__body">
+        <!-- <span class="tag tag-blue">Technology</span> -->
+        <a href={{article.url}} target="_blank"><h4>{{article.title}}</h4></a>
+        <p>{{article.content}}</p>
+      </div>
+      <div class="card__footer">
+        <div class="user">
+          <!-- <img src="https://i.pravatar.cc/40?img=1" alt="user__image" class="user__image"> -->
+          <div class="user__info">
+            <h5>{{article.source.name}}</h5>
+            <small>2h ago</small>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+  </div>
+  </div>

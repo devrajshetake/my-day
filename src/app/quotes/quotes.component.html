@@ -1,0 +1,22 @@
+<div *ngIf="quote" class="container">
+  <div  class="container">
+    <blockquote class="quote-card blue-card">
+      <p>
+        {{ quote.content }}
+      </p>
+
+      <cite>
+        {{ quote.author }}
+      </cite>
+    </blockquote>
+  </div>
+  <div class=" text-center">
+    <button class="btns btn btn-primary inspire" (click)="getRandomQuote()">
+      Next Quote
+    </button>
+    <a class="btns btn btn-success inspire" routerLink="/news">Read News</a>
+  </div>
+</div>
+<div *ngIf="!quote" class="container text-center">
+<h3>Loading...</h3>
+</div>
