@@ -16,7 +16,7 @@
 .container{
     width: 30em;
     background-color: rgb(255, 255, 255);
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 1em;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -113,7 +113,7 @@ a:last-child{
 }
 
 .effect:hover{
-    background-color: #61A1DD;
+    background-color: #0a0a0a;
 }
 /*    
 .effect.effect-4:before {
@@ -158,4 +158,11 @@ text-indent: 0;
   
   .button:hover {
     background-color: #f1f1f1;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .container{
+        max-width: 100%;
+    }
   }

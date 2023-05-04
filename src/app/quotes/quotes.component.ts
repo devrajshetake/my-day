@@ -24,7 +24,6 @@ export class QuotesComponent implements OnInit {
     // }
     this.quote = x;
     
-    this.quote.content = "Lorem Ipsum dolorus umbridge. Lorem Ipsum dolorus umbridge Lorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridge Lorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridgeLorem Ipsum dolorus umbridge"
   }
 
 }

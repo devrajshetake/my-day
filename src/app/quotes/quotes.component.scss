@@ -90,6 +90,10 @@ body {
     color: rgba($defaultSecondaryTextColor, 0.8);
     font-weight: normal;
   }
+
+  .quote-card::-webkit-scrollbar {
+    display: none;
+  }
   
   @media(max-width: 640px) {
     &:after {
