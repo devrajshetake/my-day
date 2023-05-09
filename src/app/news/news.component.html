@@ -1,5 +1,12 @@
 <div class="container-fluid">
+  <div class="container">
+    <div class="form-check form-check-inline" *ngFor="let country of countries">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="{{country[0]}}" (change)="toggleFilter($event)">
+      <label class="form-check-label" for="inlineCheckbox1">{{country[1]}}</label>
+    </div>
+  </div>
 <div class="container">
+  <h3 *ngIf="filterCountries.length === 0">No filter Selected</h3>
     
     <div class="card" *ngFor="let article of articles">
         
